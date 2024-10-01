@@ -5,7 +5,7 @@ module.exports = {
     entry: path.resolve(__dirname, "./index.ts"),
     output: {
         path: path.resolve(__dirname, "./dist"),
-        library: 'seb-components-library',
+        library: 'sb-tx-example',
         filename: "index.js",
         libraryTarget: 'umd',
         globalObject: 'this',

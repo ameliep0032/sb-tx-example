@@ -1,7 +1,7 @@
 {
-  "name": "seb-components-library",
+  "name": "sb-tx-example",
   "version": "1.0.78",
-  "description": "Sebastian's personal component library",
+  "description": "trial component library",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -15,7 +15,7 @@
     "dist"
   ],
   "author": {
-    "name": "Sebastian Meckovski"
+    "name": "amelie"
   },
   "license": "ISC",
   "devDependencies": {

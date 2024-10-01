@@ -1,5 +1,5 @@
 
-> seb-components-library@1.0.75 build-storybook
+> sb-tx-example@1.0.75 build-storybook
 > storybook build --output-dir C:\Users\SEBAST~1\AppData\Local\Temp\chromatic--2812-iwkkudLf3dq2
 
 @storybook/cli v8.1.11
