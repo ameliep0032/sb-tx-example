@@ -1,14 +1,18 @@
 import React from "react";
 import "./LinkButton.scss";
 
-interface LinkButtonProps extends React.HTMLProps<HTMLAnchorElement>  {
-  children: JSX.Element | string;
+interface LinkButtonProps {
+  text: string;
+  icon: JSX.Element;
 }
 
-export const LinkButton = ({ children, ...rest }: LinkButtonProps) => {
+export const LinkButton = ({ text, icon, ...rest }: LinkButtonProps) => {
   return (
-    <a className="link-button" {...rest}>
-      {children}
-    </a>
+    <button className="link-button" {...rest}>
+      <div className="button-align">
+        {text}
+        {icon}
+      </div>
+    </button>
   );
 };
